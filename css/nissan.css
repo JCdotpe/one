@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body,h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+body{
+	background: url('../img/bg.png') no-repeat top left #fff;
+}
+
+#title{ text-align: center;
+  font-size: 24px;
+    line-height: 36px;
+}
+
+.hero_right img{
+	border: 0;
+	float: right;
+}
+
+#inner{
+	padding: 0
+}
+
+.container {
+    background: none;
+    border: 0;
+}
+
+.widget {
+    background: none;
+}
+
+.navbar .form-search{ 
+	float: right;
+	margin: 0;
+	
+}
+
+
+select {
+    border: 1px solid #BBBBBB;
+    width: 210px;
+    margin: 0 0 0 7px
+}
+
+input {
+    width: 200px;
+}
+
+
+
+@media (min-width: 768px) {
+
+footer .span8{
+	text-align: right;
+}
+
+
+}
+
+@media (max-width: 768px) {
+
+footer .span4, footer .span8{
+	text-align: center;
+}
+
+
+}
